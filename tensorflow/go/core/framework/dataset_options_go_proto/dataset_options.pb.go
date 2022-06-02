@@ -7,7 +7,7 @@
 package dataset_options_go_proto
 
 import (
-	model_go_proto "github.com/tensorflow/tensorflow/tensorflow/go/core/framework/model_go_proto"
+	model_go_proto "github.com/iammeizu/tensorflow/tensorflow/go/core/framework/model_go_proto"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

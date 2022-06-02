@@ -15,7 +15,7 @@ package for_core_protos_go_proto
 import (
 	any "github.com/golang/protobuf/ptypes/any"
 	duration "github.com/golang/protobuf/ptypes/duration"
-	stream_executor "github.com/tensorflow/tensorflow/tensorflow/go/stream_executor"
+	stream_executor "github.com/iammeizu/tensorflow/tensorflow/go/stream_executor"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

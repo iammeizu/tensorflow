@@ -21,7 +21,7 @@
 # This script acts as a brige between bazel and go so that:
 #   bazel test :test
 # succeeds iff
-#   go test github.com/tensorflow/tensorflow/tensorflow/go
+#   go test github.com/iammeizu/tensorflow/tensorflow/go
 # succeeds.
 
 set -ex
@@ -72,5 +72,5 @@ fi
 # Document the Go version and run tests
 echo "Go version: $(go version)"
 go test \
-  github.com/tensorflow/tensorflow/tensorflow/go  \
-  github.com/tensorflow/tensorflow/tensorflow/go/op
+  github.com/iammeizu/tensorflow/tensorflow/go  \
+  github.com/iammeizu/tensorflow/tensorflow/go/op

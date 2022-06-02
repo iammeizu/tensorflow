@@ -7,8 +7,8 @@
 package node_def_go_proto
 
 import (
-	attr_value_go_proto "github.com/tensorflow/tensorflow/tensorflow/go/core/framework/attr_value_go_proto"
-	full_type_go_proto "github.com/tensorflow/tensorflow/tensorflow/go/core/framework/full_type_go_proto"
+	attr_value_go_proto "github.com/iammeizu/tensorflow/tensorflow/go/core/framework/attr_value_go_proto"
+	full_type_go_proto "github.com/iammeizu/tensorflow/tensorflow/go/core/framework/full_type_go_proto"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

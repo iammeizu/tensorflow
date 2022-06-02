@@ -2,11 +2,11 @@
 
 Construct and execute TensorFlow graphs in Go.
 
-[![GoDoc](https://godoc.org/github.com/tensorflow/tensorflow/tensorflow/go?status.svg)](https://godoc.org/github.com/tensorflow/tensorflow/tensorflow/go)
+[![GoDoc](https://godoc.org/github.com/iammeizu/tensorflow/tensorflow/go?status.svg)](https://godoc.org/github.com/iammeizu/tensorflow/tensorflow/go)
 
 > *WARNING*: The API defined in this package is not stable and can change
 > without notice. The same goes for the package path:
-> (`github.com/tensorflow/tensorflow/tensorflow/go`).
+> (`github.com/iammeizu/tensorflow/tensorflow/go`).
 
 ## Building the TensorFlow C library from source
 
@@ -33,7 +33,7 @@ from source.
 1.  Download the source code
 
     ```sh
-    go get -d github.com/tensorflow/tensorflow/tensorflow/go
+    go get -d github.com/iammeizu/tensorflow/tensorflow/go
     ```
 
 2.  Build the TensorFlow C library:
@@ -71,8 +71,8 @@ from source.
 4.  Build and test:
 
     ```sh
-    go generate github.com/tensorflow/tensorflow/tensorflow/go/op
-    go test github.com/tensorflow/tensorflow/tensorflow/go
+    go generate github.com/iammeizu/tensorflow/tensorflow/go/op
+    go test github.com/iammeizu/tensorflow/tensorflow/go
     ```
 
 ### Generate wrapper functions for ops
@@ -84,7 +84,7 @@ Prerequisites:
 - The TensorFlow repository under GOPATH
 
 ```sh
-go generate github.com/tensorflow/tensorflow/tensorflow/go/op
+go generate github.com/iammeizu/tensorflow/tensorflow/go/op
 ```
 
 ## Support

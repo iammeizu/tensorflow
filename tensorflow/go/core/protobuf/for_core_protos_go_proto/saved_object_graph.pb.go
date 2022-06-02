@@ -8,10 +8,10 @@ package for_core_protos_go_proto
 
 import (
 	any "github.com/golang/protobuf/ptypes/any"
-	tensor_shape_go_proto "github.com/tensorflow/tensorflow/tensorflow/go/core/framework/tensor_shape_go_proto"
-	types_go_proto "github.com/tensorflow/tensorflow/tensorflow/go/core/framework/types_go_proto"
-	variable_go_proto "github.com/tensorflow/tensorflow/tensorflow/go/core/framework/variable_go_proto"
-	versions_go_proto "github.com/tensorflow/tensorflow/tensorflow/go/core/framework/versions_go_proto"
+	tensor_shape_go_proto "github.com/iammeizu/tensorflow/tensorflow/go/core/framework/tensor_shape_go_proto"
+	types_go_proto "github.com/iammeizu/tensorflow/tensorflow/go/core/framework/types_go_proto"
+	variable_go_proto "github.com/iammeizu/tensorflow/tensorflow/go/core/framework/variable_go_proto"
+	versions_go_proto "github.com/iammeizu/tensorflow/tensorflow/go/core/framework/versions_go_proto"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

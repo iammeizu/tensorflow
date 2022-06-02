@@ -7125,7 +7125,7 @@ answered questions, and were part of inspiring discussions.
   QuantizeDownAndShrinkRange, QuantizedRelu, QuantizedRelu6, QuantizedReshape,
   QuantizeV2, RequantizationRange, and Requantize.
 * Go: Experimental API in Go to create and execute graphs
-  (https://godoc.org/github.com/tensorflow/tensorflow/tensorflow/go)
+  (https://godoc.org/github.com/iammeizu/tensorflow/tensorflow/go)
 * New checkpoint format becomes the default in `tf.train.Saver`. Old V1
   checkpoints continue to be readable; controlled by the `write_version`
   argument, `tf.train.Saver` now by default writes out in the new V2
